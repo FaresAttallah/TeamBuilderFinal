@@ -1,0 +1,64 @@
+
+select {
+  font-family: cursive, sans-serif;
+  outline: 0;
+  border: 1px solid crimson;
+  padding: 4px;
+  border-radius: 9px;
+  width: 250px;
+  height: 300px;
+  font-size: larger;
+  
+}
+*{
+  box-sizing: 0;
+  background-color: #0d0e0f;
+}
+body,
+input,
+textarea,
+select,
+button  {
+  color: white;
+  font: 400 "Roboto", sans-serif;
+}
+
+a:any-link{
+  color:red;
+}
+
+h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: cursive, sans-serif;
+  font-size: larger;
+}
+img{
+  margin-left: 10px;
+  margin-right: auto;
+  width:25px;
+  height:25px
+}
+span{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: cursive, sans-serif;
+  font-size: larger;
+}
+input[type=submit] {
+  background-color: red;
+  padding:5px 15px; 
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+}
+input[type=reset] {
+background-color: red;
+padding:5px 15px; 
+border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; 
+}
